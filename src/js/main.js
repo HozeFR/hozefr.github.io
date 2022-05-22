@@ -1,4 +1,4 @@
-var positions = [
+/* var positions = [
     { id: "full", male: "Développeur fullstack", female: "Développeuse fullstack"},
     { id: "front",male: "Développeur front-end", female: "Développeuse front-end"},
     { id: "back",male: "Développeur back-end", female: "Développeuse back-end"},
@@ -18,7 +18,7 @@ var specialities =  {
     full: ["Angular/Symphony"],
     front: ["React/Tailwind", "Vue/Material", "Angular/Bootstrap"],
     back: ["NodeJS/Express", "Python/Django"],
-    embedded: ["Arduino/C++"]
+    embedded: ["Arduino/C++"] 
 }
 
 function init(){
@@ -47,4 +47,4 @@ function renderFromUser(user) {
     document.querySelector("#person-email").href = "mailto:"+user.email;
 }
 
-init();
+init(); */
